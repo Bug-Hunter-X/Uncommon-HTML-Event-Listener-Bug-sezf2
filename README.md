@@ -1,0 +1,2 @@
+# Uncommon HTML Bug: Multiple Event Listeners
+This repository demonstrates a subtle bug related to adding event listeners to HTML elements using different methods (directly assigning a function vs. using `addEventListener`). While the code functions, it showcases an unconventional practice that might cause issues in complex projects.  The solution emphasizes using `addEventListener` consistently for better maintainability and predictability.
